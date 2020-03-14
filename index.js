@@ -3,10 +3,10 @@ function theBeatlesPlay(musicians, instruments){
   let finalArray = [];
 
   for(let i = 0; i < musicians.length; ++i){
-    let currMusician = musicians[i];
-    let currInstrument = instruments[i];
+    let currentMusician = musicians[i];
+    let currentInstrument = instruments[i];
 
-      finalArray.push(`${currMusician} plays ${currInstrument}`)
+      finalArray.push(`${currentMusician} plays ${currentInstrument}`)
 
 
   }
